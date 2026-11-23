@@ -17,4 +17,9 @@ union block {
         int frwdf; 
         char userdata[504]; 
     } data;
-}
+};
+
+
+union block create_directory(int back, int frwd); 
+
+union block create_file(int backf, int frwdf);
